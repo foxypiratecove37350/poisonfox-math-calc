@@ -16,5 +16,5 @@ This project is open-source, so yes you can contribute, just don't forget to fol
 ## License
 This project is under the **GNU General Public License Version 2.0**, you can see a copy of it in the [`LICENSE`](https://github.com/foxypiratecove37350/poisonfox-math-calc/blob/main/LICENSE) file.
 
-## Launch the project
-To launch this project, you can go to [`https://mathcalc.poisonfox.cf`](https://mathcalc.poisonfox.cf) or clone the repository and open the [`index.html`](https://github.com/foxypiratecove37350/poisonfox-math-calc/blob/main/index.html) file in you browser.
+## Getting started
+To see the result, you can go to [`https://mathcalc.poisonfox.cf`](https://mathcalc.poisonfox.cf) or clone the repository and open the [`index.html`](https://github.com/foxypiratecove37350/poisonfox-math-calc/blob/main/index.html) file in you browser.
