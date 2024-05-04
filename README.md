@@ -1,5 +1,5 @@
-# Poisonfox MathCalc
-Poisonfox MathCalc, a math calculator to solve really &Copf;&oopf;&mopf;&popf;&lopf;&eopf;&xopf; (not the numbers :rofl:) math problems.
+# &Popf;&oopf;&iopf;&sopf;&oopf;&nopf;&fopf;&oopf;&xopf; &Mopf;&aopf;&topf;&hopf;&Copf;&aopf;&lopf;&copf;
+&Popf;&oopf;&iopf;&sopf;&oopf;&nopf;&fopf;&oopf;&xopf; &Mopf;&aopf;&topf;&hopf;&Copf;&aopf;&lopf;&copf;, a math calculator to solve really &Copf;&oopf;&mopf;&popf;&lopf;&eopf;&xopf; (not the numbers :rofl:) math problems.
 
 ## Features
 - Solve math problems, from &Nopf; to &Sopf; :1234:
