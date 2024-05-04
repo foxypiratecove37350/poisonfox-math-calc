@@ -3,10 +3,10 @@ Poisonfox MathCalc, a math calculator to solve really complex (not the numbers :
 
 ## Features
 - Solve math problems, from &Nopf; to &Sopf; :1234:
-- Handle LaTeX :shaking_face:
+- Handle LaTeX :waving_hand:
 - Know the set theory :exclamation:
 - Give you the strict answer, and if it's not a &Dopf;&eopf;&copf;&iopf;&mopf;&aopf;&lopf; it give you also an approximation of the result in &Dopf;&eopf;&copf;&iopf;&mopf;&aopf;&lopf; :nerd:
-- Provide a custom keyboard and an option to customize the LaTeX code :puzzle_piece:
+- Provide a custom keyboard and an option to customize the LaTeX code :jigsaw:
 - Use [KaTeXRendr](https://katexrendr.poisonfox.cf)'s custom commands :thumbsup:
 - Better than Microsoft MathSolver :arrow_upper_right:
 
