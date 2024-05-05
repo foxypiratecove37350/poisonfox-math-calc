@@ -19,6 +19,7 @@ body {
 	background: #f3f3f3;
 	font-family: sans-serif;
 	color: #111;
+	padding: 0.5rem 1rem;
 }
 
 .keyboard {
@@ -30,13 +31,25 @@ body {
 
 .keyboard .row {
 	display: grid;
-	grid-auto-columns: 1fr;
-	grid-template-rows: 100%;
+	grid-template-columns: repeat(6, 1fr);
 	gap: 0.5rem;
 }
 
 .keyboard .row .key {
-	background: #ebebeb;
+	background: #cdcdcd;
 	border-radius: 10px;
 	cursor: pointer;
+	padding: 0.5rem 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.keyboard .row .key:hover {
+	background: #b1b1b1;
+}
+
+.keyboard .row .key:active,
+.keyboard .row .key:focus {
+	background: #a0a0a0;
 }
