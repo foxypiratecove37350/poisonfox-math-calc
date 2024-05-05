@@ -4,6 +4,8 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Poisonfox MathCalc - The best math calculator</title>
+		<link rel="stylesheet" href="./styles/style.css">
+		<link rel="icon" href="./images/icons-logos/icon.png">
 		<!-- KaTeX -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
 		<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
@@ -14,7 +16,7 @@
 		<div class="container">
 			<input type="text" name="math-input" class="math-input">
 			<div class="keyboard">
-				<div class="row">
+				<div class="row row-1">
 					<div class="key key-deg">DEG</div>
 					<div class="key key-x">\(x\)</div>
 					<div class="key key-y">\(y\)</div>
@@ -22,15 +24,15 @@
 					<div class="key key-rpar">\()\)</div>
 					<div class="key key-perc">\(\%\)</div>
 				</div>
-				<div class="row">
-					<div class="key key-frac">\(\)</div>
+				<div class="row row-2">
+					<div class="key key-frac">\(\underset{\displaystyle\Box}{\underline{\,\raisebox{1pt}{\(\blacksquare\)}\,}}\)</div>
 					<div class="key key-pi">\(\pi\)</div>
 					<div class="key key-seven">7</div>
 					<div class="key key-eight">8</div>
 					<div class="key key-nine">9</div>
 					<div class="key key-div">\(\div\)</div>
 				</div>
-				<div class="row">
+				<div class="row row-3">
 					<div class="key key-pow">\(\Box^\blacksquare\)</div>
 					<div class="key key-log">\(\log\)</div>
 					<div class="key key-four">4</div>
@@ -38,7 +40,7 @@
 					<div class="key key-six">6</div>
 					<div class="key key-times">\(\times\)</div>
 				</div>
-				<div class="row">
+				<div class="row row-4">
 					<div class="key key-sqrt">\(\sqrt{\blacksquare}\)</div>
 					<div class="key key-gt">\(>\)</div>
 					<div class="key key-one">1</div>
@@ -46,7 +48,7 @@
 					<div class="key key-three">3</div>
 					<div class="key key-minus">\(-\)</div>
 				</div>
-				<div class="row">
+				<div class="row row-5">
 					<div class="key key-scexp">\(10^\blacksquare\)</div>
 					<div class="key key-lt">\(<\)</div>
 					<div class="key key-zero">0</div>
@@ -54,7 +56,7 @@
 					<div class="key key-equal">\(=\)</div>
 					<div class="key key-plus">\(+\)</div>
 				</div>
-				<div class="row">
+				<div class="row row-6">
 					<div class="key key-ac">AC</div>
 					<div class="key key-left">←</div>
 					<div class="key key-right">→</div>
