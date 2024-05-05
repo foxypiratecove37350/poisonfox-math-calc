@@ -1,0 +1,42 @@
+*, ::before, ::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	transition: all 0.2s ease;
+}
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	} to {
+		opacity: 1;
+	}
+}
+
+body {
+	animation: fade-in 0.75s ease;
+	min-height: 100vh;
+	background: #f3f3f3;
+	font-family: sans-serif;
+	color: #111;
+}
+
+.keyboard {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-auto-rows: max-content;
+	gap: 0.5rem;
+}
+
+.keyboard .row {
+	display: grid;
+	grid-auto-columns: 1fr;
+	grid-template-rows: 100%;
+	gap: 0.5rem;
+}
+
+.keyboard .row .key {
+	background: #ebebeb;
+	border-radius: 10px;
+	cursor: pointer;
+}
