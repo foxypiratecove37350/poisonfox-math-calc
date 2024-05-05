@@ -43,6 +43,12 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-weight: 700;
+	user-select: none;
+}
+
+.keyboard .row .key .katex * {
+	font-weight: 700;
 }
 
 .keyboard .row .key:hover {
@@ -52,4 +58,12 @@ body {
 .keyboard .row .key:active,
 .keyboard .row .key:focus {
 	background: #a0a0a0;
+}
+
+.math-input {
+	padding: 0.5rem 1rem;
+	background: #fff;
+	border-radius: 20px;
+	border: 1px solid #cdcdcd;
+	margin-bottom: 0.75rem;
 }
