@@ -63,7 +63,18 @@ body {
 .math-input {
 	padding: 0.5rem 1rem;
 	background: #fff;
-	border-radius: 20px;
+	border-radius: 10px;
 	border: 1px solid #cdcdcd;
 	margin-bottom: 0.75rem;
+	outline: none;
+}
+
+.math-input:hover {
+	background: #f5f5f5;
+}
+
+.math-input:active,
+.math-input:focus {
+	background: #f5f5f5;
+	border-color: #b1b1b1;
 }
